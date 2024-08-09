@@ -1,0 +1,122 @@
+/* gallexy fold view */
+@media screen and (min-width:270px) and (max-width:345px){
+    .grid-uper-spacing{
+        --bs-gutter-X: 2.5rem;
+        --bs-gutter-y: 2.5rem;
+    }
+    .registration-links {
+        margin-left: 0px;
+    }
+    .banner-main {
+        padding: 80px 0;
+    }
+    .common-head {
+        font-size: 30px;
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .navbar-toggler {
+        border-color: transparent;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .banner-content p{
+        padding: 20px 0;
+        font-size: 14px;
+        max-width: 100%;
+        text-align: center;
+    }
+    .banner-links {
+        margin-top: 12px;
+        margin-bottom: 48px;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .link-order {
+        padding: 12px 32px;
+    }
+    .offers-main {
+        padding: 80px 0;
+    }
+
+
+
+    .offer-content {
+        margin-left: 0px;
+        margin-top: 64px;
+        text-align: center;
+    }
+    .image-down {
+        left: 15%;
+        top: 24%;
+        transform: translate(70%, 0%);
+        height: 80px;
+        width: 80px;
+    }
+    .common-sub-head {
+        text-align: center;
+    }
+    .offer-content p {
+        font-size: 14px;
+    }
+    .our-menu-main {
+        padding: 80px 0;
+    }
+    .tabs{
+        gap: 35px;
+    }
+    .tabs li a {
+        font-size: 14px;
+    }
+}
+
+/* mobile view */
+@media screen and (min-width:360px) and (max-width:767px){
+    .grid-uper-spacing{
+        --bs-gutter-X: 2.5rem;
+        --bs-gutter-y: 2.5rem;
+    }
+    .registration-links {
+        margin-left: 0px;
+    }
+    .banner-main {
+        padding: 80px 0;
+    }
+    .common-head {
+        font-size: 30px;
+        text-align: center;
+        text-wrap: balance;
+    }
+    .navbar-toggler {
+        border-color: transparent;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .banner-content p{
+        padding: 20px 0;
+        font-size: 14px;
+        max-width: 100%;
+        text-align: center;
+    }
+    .banner-links {
+        margin-top: 12px;
+        margin-bottom: 48px;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .link-order {
+        padding: 12px 32px;
+    }
+    .offers-main {
+        padding: 80px 0;
+    }
+}
+
+/* tablet view */
+@media screen and (min-width:768px) and (max-width:1024px){
+    .registration-links {
+        margin-left: 0px;
+    }
+}
