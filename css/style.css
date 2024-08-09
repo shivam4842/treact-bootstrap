@@ -544,8 +544,6 @@ body{
 }
 .counting-sec{
     margin: 40px 0;
-    display: flex;
-    align-items: center;
     gap: 50px;
 }
 .counting h3{
@@ -633,10 +631,6 @@ body{
     overflow: hidden;
 }
 .treact-phone-main{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     text-align: left;
     padding: 0 32px;
     max-width: 78%;
@@ -691,8 +685,6 @@ body{
 }
 .btn-list{
     margin-top: 64px;
-    display: flex;
-    align-items: center;
     gap: 35px;
 }
 .btn-ico{
